@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FAQ PAGE</title>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="FAQstyle.css">
+
+
+</head>
+<body>
+    <nav class="navbar">
+        <img class="logo" src="./logo.PNG">		
+        <ul>
+            <li> </li>
+            <li><a class ='active'href="./features.html"> Features</a></li>
+            <li><a href="./subscriptions.html"> Subscriptions</a></li>
+            <li><a href="./FAQ.html"> FAQ</a></li>
+            <li><a href="./TestHTML/about_us.html"> About Us</a></li>
+            <li><a href="./contact-us.html"> Contact Us</a></li>
+        </ul>	
+    </nav>
+    <main>
+        <h1 class="faq-heading">Frequently Asked Questions</h1>
+        <h2>$ Subscriptions</h2>
+        <section class="faq-container">
+            <div class="faq-one">
+                <!-- faq question -->
+                <h1 class="faq-page">How do I cancel my subscription?</h1>
+                <!-- faq answer -->
+                <div class="faq-body">
+                    <p>To cancel your subscription. Simply open the Fitness Evolved app, and head to "My Account".</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-two">
+                <!-- faq question -->
+                <h1 class="faq-page">How do I find out which subscription tier is best for me?</h1>
+                <!-- faq answer -->
+                <div class="faq-body">
+                    <p>To find out which tier is best for you, consult our "Subscriptions" page. In there, you can see the benefits of each tier. You can also try our free trial to truly experience what Fitness Evolved has to offer!</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-three">
+                <!-- faq question -->
+        <h1 class="faq-page">Why are there multiple tiers?</h1>
+                <!-- faq answer -->
+                <div class="faq-body">
+                    <p>Fitness Evolved is here to change the world and cater towards everyone! We want everyone to have a reason to download our app and feel included in the journey of fitness. Whether you are a casual person, or an athlete in the making, our different tiers are available for all.</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-four">
+                <!-- faq question -->
+                <h1 class="faq-page">Do you offer any discounts?</h1>
+                <!-- faq answer -->
+                <div class="faq-body">
+                    <p>Unfortunately, we do not offer any discounts for our subcriptions. However, feel free to try our one-week free trial!</p>
+                </div>
+            </div>
+        </section>
+
+        <h2>&#128345 Compatibility</h2>
+        <section class="faq-container">
+            <div class="faq-one">
+                <!-- faq question -->
+                <h1 class="faq-page">What devices are compatible with Fitness Evolved?</h1>
+                <!-- faq answer -->
+                <div class="faq-body">
+                    <p>Fitness Evolved is compatible with Apple Watch, Galaxy Watch, as well as Fitbit watches. You can see the entire list of compatible watches in our "Features" page.</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-two">
+                <!-- faq question -->
+                <h1 class="faq-page">My device is not compatible with my fitness. Will my device ever be compatible with Fitness Evolved?</h1>
+                <!-- faq answer -->
+                <div class="faq-body">
+                    <p>Although we are unsure whether your device will be compatible, we here at 24 Fitness are commited to offer Fitness Evoled to the most people possible. Follow us on social media to keep up with the latest compatibilty updates.</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-three">
+                <!-- faq question -->
+        <h1 class="faq-page">Why are there multiple tiers?</h1>
+                <!-- faq answer -->
+                <div class="faq-body">
+                    <p>Fitness Evolved is here to change the world and cater towards everyone! We want everyone to have a reason to download our app and feel included in the journey of fitness. Whether you are a casual person, or an athlete in the making, our different tiers are available for all.</p>
+                </div>
+            </div>
+        </section>
+
+        <h2>&#11088 Why us?</h2>
+        <section class="faq-container">
+            <div class="faq-one">
+                <!-- faq question -->
+                <h1 class="faq-page">Why should we go with Fitness Evolved instead of any other fitness app?</h1>
+                <!-- faq answer -->
+                <div class="faq-body">
+                    <p>Unlike any other fitness app, not only do we focus on physical health, but equally, we put our focus into mental health as well. With the blend of those two, Fitness Evolved is guaranteed to offer you life changing experience.</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-two">
+                <!-- faq question -->
+                <h1 class="faq-page">What does Fitness Evolved have that others don't?</h1>
+                <!-- faq answer -->
+                <div class="faq-body">
+                    <p>To offer the best experience, we have spent years researching and working with professionals who know what it truly means to be fit and healthy. In other words, we've created the next step in fitness evolution.</p>
+                </div>
+            </div>
+            <hr class="hr-line">
+            <div class="faq-three">
+                <!-- faq question -->
+        <h1 class="faq-page">Will I get my money's worth?</h1>
+                <!-- faq answer -->
+                <div class="faq-body">
+                    <p>With full confidence, from all of us at 24 Fitness, we can 99.9% confirm, that you will be receiving your money's worth! If you still feel hesitant, we offer a 7-day free trial.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <script type='text/javascript'>
+        var faq = document.getElementsByClassName("faq-page");
+var i;
+for (i = 0; i < faq.length; i++) {
+    faq[i].addEventListener("click", function () {
+        /* Toggle between adding and removing the "active" class,
+        to highlight the button that controls the panel */
+        this.classList.toggle("active");
+        /* Toggle between hiding and showing the active panel */
+        var body = this.nextElementSibling;
+        if (body.style.display === "block") {
+            body.style.display = "none";
+        } else {
+            body.style.display = "block";
+        }
+    });
+}
+    </script>
+</body>
+</html>
