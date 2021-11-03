@@ -57,9 +57,9 @@
 
 nav img{
 	float: left;
-	height: 80px;
-	margin-left: 50px;
-	margin-top: 140px;
+	height: 60px;
+	margin-left: 30px;
+	margin-top: 0px;
 }
 
 .wrapper .center{
@@ -71,45 +71,9 @@ nav img{
 	user-select: none;
 }
 
-.center h1{
-	color:  ghostwhite;
-	font-size: 65px;
-	font-weight: bold;
-	width: 900px;
-	text-align: center;
-	text-shadow: 0 0 50px #998EF9;
-	text-shadow: 1px 1px 2px black, 0 0 1em #A79FE8, 0 0 0.2em #A79FE8;
-
-
-}
-
-.center h3{
-	color:  white;
-	font-size: 50px;
-	font-weight: bold;
-	width: 880px;
-	margin-top: 10px;
-	text-align: center;
-	font-family: 'Didact Gothic', sans-serif;
-}
 
 
 
-.mainPageButton{
-	display: block;
-	margin: 0 auto;
-	height: 40px;
-	background-color: black;
-	width: 140px;
-	border-radius: 20%;
-	border: 2px solid #A79FE8;
-	font-size: 20px;
-	color: ghostwhite;
-	font-weight: 500;
-	font-family: 'Didact Gothic', sans-serif;
-	text-shadow: mediumpurple 0 -2.5px;
-	transition: 0.4s;
-}
 * {
     box-sizing: border-box;
   }
@@ -118,10 +82,28 @@ nav img{
     float: left;
     width: 50%;
     padding: 10px;
-    height: 155px; 
+    height: 180px; 
+	font-family: 'Didact Gothic', sans-serif;
+	background-color: indigo
   }
 .row:after {
     content: "";
     display: table;
     clear: both;
   }
+.h1 {
+	font-family: 'Didact Gothic', sans-serif;
+
+}
+.h2{
+	font-family: 'Didact Gothic', sans-serif;
+}
+.p{
+	font-family: 'Didact Gothic', sans-serif;
+}
+.h3{
+	font-family: 'Didact Gothic', sans-serif;
+}
+.ul{
+	font-family: 'Didact Gothic', sans-serif;
+}
