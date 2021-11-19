@@ -43,7 +43,7 @@
 	text-decoration: none;
 	color:  ghostwhite;
 	font-size: 22px;
-	padding: 15px 13px;
+	padding: 13px 13px;
 	font-family: 'Didact Gothic', sans-serif;
 	transition: .4s;
 	text-shadow: mediumpurple 0 -2px;
@@ -67,7 +67,7 @@ nav img{
 	top: 32%;
 	left: 27%;
 	transform: translate(-50%, -50%);
-	font-family: sans-serif;
+	font-family: 'Didact Gothic', sans-serif;
 	user-select: none;
 }
 
@@ -101,7 +101,7 @@ nav img{
 .p{
 	font-family: 'Didact Gothic', sans-serif;
 }
-.h3{
+.h1_3{
 	font-family: 'Didact Gothic', sans-serif;
 }
 .ul{
